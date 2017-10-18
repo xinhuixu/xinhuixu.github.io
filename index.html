@@ -6,29 +6,90 @@
   </head>
   <body>
 
-    <div class="container">
-      <ul class="nav nav-tabs">
-	<li class="nav-item">
-	  <a class="nav-link active" href="#home" role="tab" data-toggle="tab">Active</a>
-	</li>
-	<li class="nav-item">
-	  <a class="nav-link" href="#projects" role="tab" data-toggle="tab">Projects</a>
-	</li>
-	<li class="nav-item">
-	  <a class="nav-link" href="#" role="tab" data-toggle="tab">Link</a>
-	</li>
-      </ul>
+    <div class="container" style="margin-top: 5%">
 
-      <div class="tab-content">
-        <div role="tabpanel" class="tab-pane fade in active" id="home">1</div>
-        <div role="tabpanel" class="tab-pane fade" id="projects">2</div>
-        <div role="tabpanel" class="tab-pane fade" id="about">3</div>
-      </div>
+      <p>
+	  <ul class="nav nav-tabs" role="tablist">
+	    <li class="nav-item">
+	      <a class="nav-link active" href="#home" role="tab" data-toggle="tab">Home</a>
+	    </li>
+	    <li class="nav-item">
+	      <a class="nav-link" href="#projects" role="tab" data-toggle="tab">CS Projects</a>
+	    </li>
+	  </ul>
+</p>
+	  <div class="tab-content">
+	    <!--HOME-->
+	    <div role="tabpanel" class="tab-pane fade in active show" id="home">
 
 
+	      <div class="row justify-content-md-center" style="margin:7%">
+		<div class="col-md-6">
+		<h1>Hello there!</h1>
+		<p>
+		I'm Xinhui, a first-year student in Wellesley College, MA, planning to major in Mathematics and Computer Science. My hometown is Brooklyn, New York. I speak English, Mandarin Chinese, and I'm currently learning Japanese. Outside of class, I'm interested in East Asian literature and digital art.</p>		
+		</div>
+		<div class="col-md-6 text-center" >
+		    <figure class="figure">
+		      <img src="static/photo.jpg" alt="photo" class="img-thumbnail">
+		      <!--<figcaption class="figure-caption text-right">King Richard's Fair, MA.</figcaption>-->
+		      </figure>
+		</div>
+
+	      </div>
+	    </div>
+	    <!--PROJ-->
+	    <div role="tabpanel" class="tab-pane fade" id="projects">
+
+	      <div class="card-columns">
+		<div class="card">
+		  <div class="card-block">
+		    <h3 class="card-title"><a href="http://github.com/xinhuixu/laughing-octo-disco">CLI Project Manager</a></h3>
+		    <p class="card-text">C application that helps members of group projects manage their task progress using a client-server model
+		      <br/>
+		      <i>Partner: Nala Sharadjaya</i>
+		    </p>
+		  </div>
+		</div>
+
+		<div class="card">
+		  <div class="card-block">
+		    <h3 class="card-title">	<a href="https://github.com/Edmond-Lam/hachiroku">Kakukaku!!</a>
+		    </h3>
+		    <p class="card-text">
+		      Python web application for competitive, timed drawing matches judged by other users
+		      <br/><i>Partners: Edmond Lam, Daniel Monteagudo, Lorenz Vargas</i>
+		      <br/>
+		    <p class="text-center"><a href="http://kakukaku.stuycs.org/" class="btn btn-primary">Hosted link</a></p>
+		    </p>
+		  </div>
+		</div>
+
+		<div class="card">
+		  <div class="card-block">
+		    <h3 class="card-title">	<a href="https://github.com/xinhuixu/turbo-enigma">Graphics Engine</a>
+		    </h3>
+		    <p class="card-text">
+		      Python program that parses custom scripts to generate and render 3D solids, with lighting and animation functions
+		    </p>
+		  </div>
+		</div>
+
+		
+	      </div>
+	      
+
+	    </div>
+	    
+	  </div>
     </div>
+</div>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="static/js/bootstrap.min.js"></script>
+    <script>
+      $('#home').tab('show')
+    </script>
   </body>
 </html>
