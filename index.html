@@ -49,6 +49,22 @@ svg {
     border-color: black;
     border-style: solid;
 }
+
+  /* Hide the expandable text by default */
+  #expandable-text {
+    display: none;
+  }
+
+  /* Style for the summary (clickable) text */
+  summary {
+    cursor: pointer;
+    outline: none; /* Remove default focus outline */
+  }
+
+  /* Show the expandable text when the summary is in focus */
+  summary:focus + #expandable-text {
+    display: block;
+  }
 </style>
 </head>
 
@@ -61,9 +77,7 @@ svg {
 	<br>
     <aside>Hello! I'm Xinhui (like 'shin-way'). 
         I build learning experiences that 
-        meet the needs of individuals and teams effectively. 
-        Favorite keywords:    
-        (1) accessible, (2) evaluable, and (3) adaptable. 
+        meet the needs of individuals and teams effectively.  
         Welcome to my homepage, feel free to get in touch, and have a great rest of your day.</aside>
 </header>
 
@@ -83,12 +97,16 @@ svg {
 <main>
 	<section id="section1">
 	  <h2>Recent projects</h2>
+      <p>Here are some of the things I worked on for the 
+        <a href="https://sites.google.com/tc.columbia.edu/al-tesol-language-technology/home"
+         target="_blank">Language & Technology Research Group</a> 
+          at Teachers College (TC), Columbia University:</p>
       <ul>
         <li><a href="https://github.com/xinhuixu/corpus-analyzer/tree/master" target="_blank">
             [Software] Language Classroom Data Analyzer
         </a></li>
         <li><a href="https://drive.google.com/file/d/1PXkBFkqRKbZ5wsDi_eIy6MW-889s31-S/view?usp=sharing" target="_blank">
-            [Workshop] Large Language Model Workshop @ Tech Day, Teachers College, Columbia University
+            [Workshop] Large Language Models Workshop
         </a></li>
         <li><a href="https://colab.research.google.com/drive/1hVe1SXrIy3-1X2MoJmrUQ6yc78Yl8gbS?usp=drive_link" target="_blank">
             [Workshop] Language models interactive Colab notebook
@@ -97,8 +115,37 @@ svg {
             [Tutorial] Transcription with OpenAI Whisper
         </a></li>
         <li><a href="https://docs.google.com/presentation/d/1RklPneERUfguucgI8NeyVdlLYqu9O6uNsSNvnyAXyIM/edit?usp=drive_link" target="_blank">
-            [Workshop] Automatic Speech Recognition demo
+            [Workshop] Automatic Speech Recognition Demo
         </a></li>
+    </ul>
+
+    <p>
+    I've also received a 
+    <a href="https://www.tc.columbia.edu/arts-and-humanities/tcsol-certificate/"
+    target="_blank">certificate</a> from TC's 
+    Center for International Foreign Language Teacher Education,
+    concentrating on Chinese for adult learners. Sample works:
+    </p>
+    <ul>
+        <li> <a href="https://drive.google.com/file/d/1GMgvxXd3UNaB6I2VmRckgiTfcOxgpZV9/view?usp=drive_link" target="_blank">
+            [Presentation] Capstone Project: a Task-based & Project-based Instructional Approach
+        </a></li>
+        <li><a href="https://drive.google.com/file/d/109yHffnGbn122h-zuSpnu_Ylshb5PHBM/view?usp=sharing" target="_blank">
+            [Report] Duolingo and Language Pedagogy
+        </a></li>
+        <li><a href="https://drive.google.com/file/d/1GMgvxXd3UNaB6I2VmRckgiTfcOxgpZV9/view?usp=drive_link" target="_blank">
+            [Presentation] Drill slides for Columbia undergraduates 
+            enrolled in Business Chinese (Intermediate)
+        </a>
+        <details>
+            <summary><u>Drills?</u></summary>
+
+            <ul id="expandable-text">
+                <li>A typical effective college-level language course interleaves lecture and drill sessions. 
+                    The goal of drills is deliberate practice: maximizing student language output 
+                    after they have been exposed to new info in their lectures.</li>
+            </ul>
+        </details>
     </ul>
 	</section>
 	<section id="section2">
