@@ -112,6 +112,12 @@ border-style: solid;
     height: 100%;
 }
 
-li .small{
+li.small{
     font-size: 0.8em;
+}
+
+img.project-thumbnail {
+width:50vw;
+border-style: solid;
+border-width: 2px;
 }
