@@ -41,7 +41,6 @@ nav {
     transition: height 0.5s ease; /* Smooth transition for height adjustment */
 
 }
-
 nav.sticky {
     position: fixed;
     top: 0;
@@ -58,12 +57,24 @@ nav.sticky {
     background-color: white;
 }
 nav a {
+    
        margin: 0 10px; /* Adds horizontal space between links */
        transition: opacity 0.5s ease;
        vertical-align: middle;
        display: flex;
        align-items: center;
-       
+       flex: 0 1 auto; /* Do not grow, allow shrink, and base width on content */
+}
+@media (max-width: 768px) {
+    nav a {
+        margin: 0 5px; /* Reduces margin on mobile */
+        padding: 10px 5px; /* Increases touch area */
+    }
+
+    /* Adjust nav padding or other properties */
+    nav.sticky {
+        padding: 10px;
+    }
 }
 header img, footer img {
 width: 240px;
