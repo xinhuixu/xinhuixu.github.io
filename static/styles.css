@@ -167,7 +167,7 @@ border-style: solid;
     height: 100%;
 }
 
-li.small{
+p.small, li.small {
     font-size: 0.8em;
 }
 
