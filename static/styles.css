@@ -213,3 +213,35 @@ footer {
     /*box-shadow: 0 0 0 1px red; /* Temporarily outlines all elements */
     box-sizing: border-box; /* Ensures padding and border are included in the element's total width */
 }
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+@media (min-width: 800px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.gallery-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    margin-top: 10px;
+    font-size: 0.6em;
+}
