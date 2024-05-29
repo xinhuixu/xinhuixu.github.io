@@ -34,6 +34,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .nav-placeholder {
     width: 100%;
@@ -55,6 +56,7 @@ nav.sticky {
     border-bottom-style: solid;
     border-bottom-color: lightgray;
     background-color: white;
+    flex-wrap: wrap;
 }
 nav a {
     
@@ -65,7 +67,13 @@ nav a {
        align-items: center;
        flex: 0 1 auto; /* Do not grow, allow shrink, and base width on content */
 }
+@media (max-width:1024px) {
+    nav {
+        justify-content: flex-start;
+    }
+}
 @media (max-width: 768px) {
+ 
     nav a {
         margin: 0 5px; /* Reduces margin on mobile */
         padding: 10px 5px; /* Increases touch area */
@@ -195,7 +203,7 @@ img.project-thumbnail-small {
     border-color: lightgray;
 }
 .return a {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 footer {
@@ -244,4 +252,53 @@ footer {
 .caption {
     margin-top: 10px;
     font-size: 0.6em;
+}
+
+
+.hero-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: white;
+    padding: 16px;
+    font-size: 1em;
+    border: dashed;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100%; /* Set to 100% of the parent width */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: lightgrey;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: lightgrey;
+    border-style: solid;
 }
