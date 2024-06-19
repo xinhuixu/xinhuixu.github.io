@@ -192,6 +192,7 @@ img.project-thumbnail-small {
 }
 
 .return {
+    font-size: large;
     position: fixed;
     padding: 10px 20px;
     bottom: 0;
@@ -301,4 +302,10 @@ footer {
 .dropdown:hover .dropbtn {
     background-color: lightgrey;
     border-style: solid;
+}
+
+summary {
+    font-size: larger;
+    color: darkblue;
+    text-decoration: underline;
 }
