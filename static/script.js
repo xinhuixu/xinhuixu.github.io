@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded', function() {
     var navbar = document.querySelector("nav");
     var links = navbar.querySelectorAll("a");
-    var stickyTrigger = navbar.offsetTop - (0.4*navbar.offsetHeight);
+    var stickyTrigger = navbar.offsetTop - (0.4 * navbar.offsetHeight);
     var placeholder = document.querySelector(".nav-placeholder");
 
     function updatePlaceholderHeight() {
-        placeholder.style.height = 0.75*navbar.offsetHeight + "px";
+        placeholder.style.height = 0.75 * navbar.offsetHeight + "px";
     }
 
-    window.onscroll = function() {
+    function checkScroll() {
         if (window.scrollY >= stickyTrigger) {
             navbar.classList.add("sticky");
             updatePlaceholderHeight(); // Update placeholder height when sticky
@@ -18,7 +18,10 @@ document.addEventListener('DOMContentLoaded', function() {
             placeholder.style.height = "0px"; // Reset placeholder height
             links.forEach(link => link.style.opacity = "1"); // Restore full opacity
         }
-    };
+    }
 
-    window.onresize = updatePlaceholderHeight; // Update placeholder height on resize 
+    window.addEventListener('scroll', checkScroll); // Use addEventListener for better practice
+    window.addEventListener('resize', updatePlaceholderHeight); // Update placeholder height on resize 
+
+    updatePlaceholderHeight(); // Initial call to set placeholder height
 });

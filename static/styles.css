@@ -37,44 +37,27 @@ nav {
     justify-content: center; /* Distributes items evenly */
     flex-wrap: wrap;
 }
-nav.nonindex {
-    position: fixed;
-    top: 0;
-    left: 0; /* Ensures the nav starts from the left edge */
-    right: 0; /* Ensures the nav extends to the right edge */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000; /* Ensure it stays on top of other content */
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: lightgray;
-    background-color: white;
-    flex-wrap: wrap;
-}
+
 .nav-placeholder {
     width: 100%;
     height: 0;
     transition: height 0.5s ease; /* Smooth transition for height adjustment */
 
 }
+/*
 nav.sticky {
     position: fixed;
     top: 0;
-    left: 0; /* Ensures the nav starts from the left edge */
-    right: 0; /* Ensures the nav extends to the right edge */
+    left: 0; 
+    right: 0; 
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000; /* Ensure it stays on top of other content */
+    z-index: 1000; 
     border-bottom-width: 2px;
     border-bottom-style: solid;
     border-bottom-color: lightgray;
     background-color: white;
-    flex-wrap: wrap;
-}
+
+}*/
 nav a {
        margin: 0 10px; /* Adds horizontal space between links */
        transition: opacity 0.5s ease;
@@ -94,11 +77,11 @@ nav a {
         margin: 0 5px; /* Reduces margin on mobile */
         padding: 10px 5px; /* Increases touch area */
     }
-
-    /* Adjust nav padding or other properties */
+/*
     nav.sticky {
         padding: 10px;
     }
+    */
 }
 header img, footer img {
 width: 240px;
