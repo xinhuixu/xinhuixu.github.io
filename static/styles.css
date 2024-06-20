@@ -31,9 +31,10 @@ header {
 nav {
     width: 100%;
     opacity: 1; /* Default full visibility */
+
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around; /* Distributes items evenly */
     flex-wrap: wrap;
 }
 .nav-placeholder {
@@ -59,7 +60,6 @@ nav.sticky {
     flex-wrap: wrap;
 }
 nav a {
-    
        margin: 0 10px; /* Adds horizontal space between links */
        transition: opacity 0.5s ease;
        vertical-align: middle;
@@ -186,7 +186,7 @@ border-width: 2px;
 }
 
 img.project-thumbnail-small {
-    width:25vw;
+    width:20vw;
     border-style: solid;
     border-width: 2px;
 }
