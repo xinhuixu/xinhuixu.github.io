@@ -34,7 +34,23 @@ nav {
 
     display: flex;
     align-items: center;
-    justify-content: space-around; /* Distributes items evenly */
+    justify-content: center; /* Distributes items evenly */
+    flex-wrap: wrap;
+}
+nav.nonindex {
+    position: fixed;
+    top: 0;
+    left: 0; /* Ensures the nav starts from the left edge */
+    right: 0; /* Ensures the nav extends to the right edge */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it stays on top of other content */
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    background-color: white;
     flex-wrap: wrap;
 }
 .nav-placeholder {
