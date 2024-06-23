@@ -27,63 +27,69 @@ header {
     flex-direction: column;
     margin-bottom: 20px; /* Adds space between the header and nav */
 }
-
 nav {
     width: 100%;
     opacity: 1; /* Default full visibility */
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-around; /* Distributes items evenly */
+    flex-wrap: wrap; /* Allows items to wrap if needed */
+    background-color: white; /* Ensures the background color is consistent */
+    border-bottom-width: 2px; /* Ensures the border is consistent */
+    border-bottom-style: solid; /* Ensures the border is consistent */
+    border-bottom-color: lightgray; /* Ensures the border color is consistent */
+    padding: 10px 0; /* Add padding to ensure spacing is consistent */
 }
-.nav-placeholder {
-    width: 100%;
-    height: 0;
-    transition: height 0.5s ease; /* Smooth transition for height adjustment */
 
-}
 nav.sticky {
     position: fixed;
     top: 0;
     left: 0; /* Ensures the nav starts from the left edge */
     right: 0; /* Ensures the nav extends to the right edge */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     z-index: 1000; /* Ensure it stays on top of other content */
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: lightgray;
-    background-color: white;
-    flex-wrap: wrap;
+    padding: 10px 0; /* Maintain padding in sticky state */
 }
+
 nav a {
-    
-       margin: 0 10px; /* Adds horizontal space between links */
-       transition: opacity 0.5s ease;
-       vertical-align: middle;
-       display: flex;
-       align-items: center;
-       flex: 0 1 auto; /* Do not grow, allow shrink, and base width on content */
+    margin: 0 10px; /* Adds horizontal space between links */
+    transition: opacity 0.5s ease, font-weight 0.5s ease;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers text within each item */
+    flex: 1; /* Ensures each item takes up equal space */
+    text-decoration: none; /* Removes underline from links */
+    color: #000; /* Link color */
+    font-weight: normal; /* Ensure normal font weight */
 }
-@media (max-width:1024px) {
+
+nav a b {
+    font-weight: bold; /* Bold only the text inside the <b> tag */
+}
+
+.nav-placeholder {
+    width: 100%;
+    height: 0;
+    transition: height 0.5s ease; /* Smooth transition for height adjustment */
+}
+
+@media (max-width: 1024px) {
     nav {
         justify-content: flex-start;
     }
 }
+
 @media (max-width: 768px) {
- 
     nav a {
         margin: 0 5px; /* Reduces margin on mobile */
         padding: 10px 5px; /* Increases touch area */
     }
 
-    /* Adjust nav padding or other properties */
     nav.sticky {
         padding: 10px;
     }
 }
+
+
 header img, footer img {
 width: 240px;
 height: 240px;
@@ -186,7 +192,7 @@ border-width: 2px;
 }
 
 img.project-thumbnail-small {
-    width:25vw;
+    width:20vw;
     border-style: solid;
     border-width: 2px;
 }
