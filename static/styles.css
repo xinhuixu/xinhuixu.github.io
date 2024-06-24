@@ -203,21 +203,45 @@ p.small, li.small {
     font-size: 0.8em;
 }
 
-img.project-thumbnail {
+.project-thumbnail {
 width:50vw;
 border-style: solid;
 border-width: 2px;
 }
 
-img.project-thumbnail-small {
-    width:20vw;
+/* Container for thumbnails and videos */
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between items as needed */
+    align-items: center;
+}
+
+/* Style for the video container */
+.project-video-container {
+    width: 25vw;
     border-style: solid;
     border-width: 2px;
 }
+
+.project-thumbnail-small {
+    width: 20vw;
+    border-style: solid;
+    border-width: 2px;
+}
+
 /* Style for thumbnails on small screens (phones) */
 @media (max-width: 600px) {
+    .project-container {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+
     img.project-thumbnail-small {
         width: 75vw;
+    }
+
+    .project-video-container {
+        width: 100%;
     }
 }
 
