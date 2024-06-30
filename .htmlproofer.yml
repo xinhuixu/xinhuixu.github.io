@@ -1,0 +1,12 @@
+# .htmlproofer.yml
+url_ignore:
+  - /localhost:4000/
+  - /127.0.0.1/
+  - https://www.linkedin.com/in/xinhuixu02
+  - https://fonts.googleapis.com
+  - https://fonts.gstatic.com
+
+# Ignoring specific status codes
+http_status_ignore:
+  - 999
+  - 404

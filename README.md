@@ -1,1 +1,3 @@
-# <p><a href="https://xinhuixu.github.io" target="_blank">Homepage</a></p>
+# Portfolio site
+
+[https://xinhuixu.github.io]
