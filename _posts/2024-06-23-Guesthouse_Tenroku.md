@@ -16,6 +16,13 @@ description: Digital welcome guide for a hostel based in Osaka, Japan.
 > As a freelance instructional designer, I am designing an interactive welcome guide for [**Guesthouse Ten-roku**](https://gh-ten6.com/), an independent hostel based in the bustling city of Osaka, Japan.
 {: .prompt-tip }
 
+## Client Design Review 
+
+[Access the client-facing design review deck here (PDF/English).](../../assets/lib/ten-roku_guide_v1_client_design_review.pdf){:target="_blank"}
+
+
+![Desktop View](assets/img/tenroku_CDR_1.jpg){: width="972" height="589" }
+_Title page of the slide deck._
 
 ## Mission 
 Enhance the experiences of thousands of global travelers Ten-roku serves every year through accessible and engaging information; streamline daily business operations as Ten-roku expands to additional properties.
@@ -30,7 +37,7 @@ _Mockup of the QR code poster._
 - **Interactive floor guide:** Helps guests quickly locate facilities and amenities.
 - **Housekeeping rules:** Visually explains guidelines to ensure a safe, enjoyable stay and preserve the traditional Japanese-style building.
 
-## Demo video (v1.0)
+<!--## Demo video (v1.0)
 
 {% 
     include embed/video.html 
@@ -38,13 +45,17 @@ _Mockup of the QR code poster._
     title='Guesthouse Ten-roku Demo Video v1.0'
     loop=true
     muted=true
-%}
+%}-->
 
 ## Tools
 
 `Articulate Rise`, `Canva`
 
 ## Role
+
+Business & brand strategy, experience design, instructional design & development, translation.
+
+## Process
 
 - **Analysis:** Consulted with staff to understand busisness context and challenges before proposing strategies.
 - **Design:** Translated and expanded old guide content from Japanese to Global English; revamped the instructional, visual, and technical design of the guide focusing on engagement and accessiblity.
