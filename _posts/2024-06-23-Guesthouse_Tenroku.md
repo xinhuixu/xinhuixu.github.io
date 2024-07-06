@@ -18,25 +18,29 @@ description: Digital welcome guide for a hostel based in Osaka, Japan.
 
 ## Client Design Review 
 
-[Access the client-facing design review deck here (PDF/English).](../../assets/lib/ten-roku_guide_v1_client_design_review.pdf){:target="_blank"}
-
+[Access the English client-facing design review deck here (PDF).](../../assets/lib/ten-roku_guide_v1_client_design_review.pdf){:target="_blank"}
 
 ![Desktop View](assets/img/tenroku_CDR_1.jpg){: width="972" height="589" }
 _Title page of the slide deck._
 
+[Access the Japanese client-facing design review deck here (PDF).](../../assets/lib/(JPN)ten-roku_guide_v1_client_design_review.pdf){:target="_blank"}
+
+![Desktop View](assets/img/(JPN)tenroku_CDR_1.jpg){: width="972" height="589" }
+_Sample page of the slide deck._
+
 ## Mission 
 Enhance the experiences of thousands of global travelers Ten-roku serves every year through accessible and engaging information; streamline daily business operations as Ten-roku expands to additional properties.
 
-![Desktop View](assets/img/tenroku-QR-mockup.png){: width="972" height="589" .w-50 }
-_Mockup of the QR code poster._
+![Desktop View](assets/img/(JPN)tenroku_CDR_2.jpg){: width="972" height="589" }
+_Sample page of the slide deck (2)._
 
-## Design highlights
+<!-- ## Design highlights
 
 - **Ease of access:** Guests scan the QR code placed strategically in the guesthouse (at the reception, in guest rooms, and common areas) to instantly access the guide on their devices, even when the staff is not available (e.g., after-hour check-ins).
 - **Cross-device compatibility:** Fully responsive with smartphones, tablets, and desktops.
 - **Interactive floor guide:** Helps guests quickly locate facilities and amenities.
 - **Housekeeping rules:** Visually explains guidelines to ensure a safe, enjoyable stay and preserve the traditional Japanese-style building.
-
+-->
 <!--## Demo video (v1.0)
 
 {% 
