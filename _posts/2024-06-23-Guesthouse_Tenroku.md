@@ -21,18 +21,18 @@ description: Digital welcome guide for a hostel based in Osaka, Japan.
 [Access the English client-facing design review deck here (PDF).](../../assets/lib/ten-roku_guide_v1_client_design_review.pdf){:target="_blank"}
 
 ![Desktop View](assets/img/tenroku_CDR_1.jpg){: width="972" height="589" }
-_Title page of the slide deck._
+_Title page of the client-facing slide deck._
 
 [Access the Japanese client-facing design review deck here (PDF).](../../assets/lib/(JPN)ten-roku_guide_v1_client_design_review.pdf){:target="_blank"}
 
 ![Desktop View](assets/img/(JPN)tenroku_CDR_1.jpg){: width="972" height="589" }
-_Sample page of the slide deck._
+_Sample page of the client-facing slide deck (Japanese)._
 
 ## Mission 
 Enhance the experiences of thousands of global travelers Ten-roku serves every year through accessible and engaging information; streamline daily business operations as Ten-roku expands to additional properties.
 
 ![Desktop View](assets/img/(JPN)tenroku_CDR_2.jpg){: width="972" height="589" }
-_Sample page of the slide deck (2)._
+_Sample page of the client-facing slide deck (Japanese)._
 
 <!-- ## Design highlights
 
