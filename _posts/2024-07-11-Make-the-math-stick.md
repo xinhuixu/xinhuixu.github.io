@@ -8,6 +8,9 @@ description: Field notes from designing and delivering targeted math instruction
 
 ---
 
+> This is a living document. While I wrote this from the perspective of mathematics instruction, I've found that the strategies transfer quite well into other domains. [Feel free to reach out](mailto:xinhuixu02@gmail.com) if you have any ideas or questions.
+{: .prompt-tip }
+
 ### Build relationships with learners
 This decides everything that follows. If I am a deliverer, i.e., I get to work with a learner directly:
 - Get to know them as a person. Begin working sessions by asking them how their week was. Chat about their interests and hobbies. Spark a little fun debate from time to time. 
@@ -50,3 +53,4 @@ A.K.A. the Feynman Method, the Rubber Duck Debugging Method, or Flipped Classroo
 Sometimes, skills are difficult to learn because they are difficult. From what I've seen, the thought that "I'm supposed to get this quickly" is a common culprit that drives up anxiety in learners. 
 The role of the instructor or instructional designer is not to dilute and dumb down content but to pave a road for the learner to navigate its complex topography.
 We achieve this by acknowledging the challenge of learning something new, facilitating diverse modalities of practice, surfacing hidden structures, and laying down new structures into arenas where they do not yet exist.
+
