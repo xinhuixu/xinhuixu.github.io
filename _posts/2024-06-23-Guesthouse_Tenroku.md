@@ -8,7 +8,7 @@ image:
     path: assets/img/tenroku-mockup-v1.png
     alt: Mockup of the eLearning module.
 
-description: Digital welcome guide for a hostel based in Osaka, Japan.
+description: Modern customer experience design for a hostel based in Osaka, Japan.
 
 ---
 
