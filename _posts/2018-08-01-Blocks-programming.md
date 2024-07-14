@@ -1,8 +1,8 @@
 ---
 title: Collaboration in MIT App Inventor
 date: 2018-08-01 00:00:00 -0500
-categories: [Training, Presentation]
-tags: [poster, user-experience]     # TAG names should always be lowercase
+categories: [Instructional_Design, Presentation]
+tags: [poster, user_experience]     # TAG names should always be lowercase
 
 image:
     path: assets/img/app-inventor-1200x630.png

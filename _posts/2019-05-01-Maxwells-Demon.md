@@ -1,7 +1,7 @@
 ---
 title: Intro to Maxwell's Demon
 date: 2019-05-01 00:00:00 -0500
-categories: [Training, Presentation]
+categories: [Instructional_Design, Presentation]
 tags: [poster]     # TAG names should always be lowercase
 
 image:

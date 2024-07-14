@@ -2,7 +2,7 @@
 title: Competitive multi-player drawing game - "Kakukaku"
 date: 2017-05-30 00:00:00 -0500
 categories: [Programming, General_Technology]
-tags: [python, html-css-js, git, user-experience]     # TAG names should always be lowercase
+tags: [python, html-css-js, git, user_experience]     # TAG names should always be lowercase
 
 image:
     path: assets/img/kakukaku.png

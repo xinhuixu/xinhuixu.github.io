@@ -1,7 +1,7 @@
 ---
 title: Polynomials and rationals (Animation)
 date: 2015-12-15 00:00:00 -0500
-categories: [Video_Productions]
+categories: [Video_Production, Educational_Videos]
 tags: [storyboarding, scripting, video_editing, k-12, math]     # TAG names should always be lowercase
 
 image:
