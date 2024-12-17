@@ -1,7 +1,7 @@
 ---
 title: Project design for adult Chinese learners
 date: 2022-05-09 00:00:00 -0500
-categories: [Instructional_Design, Presentation]
+categories: [Design, Instructor_Led]
 tags: [activities, chinese, adult_learning]     # TAG names should always be lowercase
 
 description: A project that helps learner talk about travelling from the lense of planning and interviewing.

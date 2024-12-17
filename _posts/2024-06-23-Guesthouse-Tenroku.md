@@ -1,7 +1,7 @@
 ---
 title: Guesthouse Ten-roku
 date: 2024-06-23 00:00:00 -0500
-categories: [Instructional_Design, eLearning]
+categories: [Design, eLearning]
 tags: [articulate_rise, canva, user_experience, translations, addie, freelance]     # TAG names should always be lowercase
 
 image:
@@ -10,7 +10,6 @@ image:
 
 description: Modern customer experience design for a hostel based in Osaka, Japan.
 
-pin: true
 ---
 
 

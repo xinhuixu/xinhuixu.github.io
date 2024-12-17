@@ -1,7 +1,7 @@
 ---
 title: Make the math stick
 date: 2024-07-11 00:00:00 -0500
-categories: [Instructional_Design, Pedagogy]
+categories: [Design, Pedagogy]
 tags: [math, k-12, notes]     # TAG names should always be lowercase
 
 description: Field notes from designing and delivering targeted math instruction. A collection of strategies that work.

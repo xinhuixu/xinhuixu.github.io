@@ -1,7 +1,7 @@
 ---
 title: A world without UX Design...
 date: 2024-09-09 00:00:00 -0500
-categories: [Instructional_Design, Workshop]
+categories: [Design, Instructor_Led]
 tags: [user_experience, activity_design]     # TAG names should always be lowercase
 
 image:

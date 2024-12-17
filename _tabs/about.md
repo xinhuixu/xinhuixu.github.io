@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 1
 ---
 
-![Desktop View](assets/img/Profile2024.JPEG){: width="972" height="589" }
+![Desktop View](assets/img/XinhuiProfile2024.JPG){: width="972" height="589" }
 
 > Hi! Thanks for stopping by.
 {: .prompt-tip }
@@ -24,5 +24,4 @@ My main arena is [**instructional design**](https://en.wikipedia.org/wiki/Instru
 - In my free time, I enjoy museums, parks, movies, libraries, cooking and baking, boardgames, and making art, which includes super-amateur photography. This is a mutable list...
 
 
-![Desktop View](assets/img/cat-compressed.png){: width="972" height="589" }
-_Me and my cat hanging out._
+![Desktop View](assets/img/Profile2024.JPEG){: width="972" height="589" }
