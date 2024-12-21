@@ -8,7 +8,7 @@ image:
     path: assets/img/FB Roommates Cover 1200x630 (1).png
     alt: Screenshot of a frame of FB Roommate's prototype.
 
-description: User research and product prototype for a new way to connect people looking for roommates,
+description: User research and product prototype for a new way to connect people looking for roommates.
 
 ---
 
