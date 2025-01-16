@@ -1,6 +1,7 @@
-# Portfolio site
+# Portfolio site (archive)
 
-[https://xinhuixu.github.io]
+Updated portfolio is live on [https://xinhuixu.notion.site]
+
 
 Note for installation:
 
@@ -8,7 +9,10 @@ Note for installation:
 brew install ruby
 (remember to add ruby to path, then restart terminal)
 gem install jekyll
-gem install jekyll-theme-chirpy
+
+bundle install
 
 jekyll build
 jekyll serve
+
+[https://xinhuixu.github.io]
